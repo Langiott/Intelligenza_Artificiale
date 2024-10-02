@@ -1,5 +1,6 @@
 # Intelligenza_Artificiale
 Corso universitario 
+![FIG.0: IA.jpg](https://www.bing.com/images/search?view=detailV2&ccid=YFqHEvHh&id=0176C4FF95883E564D10F35D0D6F0313F6A92F7A&thid=OIP.YFqHEvHhp2an8RKcztggzwHaD4&mediaurl=https%3a%2f%2fniteolearning.com%2fblog%2fwp-content%2fuploads%2f2023%2f06%2finteligencia-artificial-generativa.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.605a8712f1e1a766a7f1129cced820cf%3frik%3dei%252bp9hMDbw1d8w%26pid%3dImgRaw%26r%3d0&exph=536&expw=1024&q=ia+generative+immaginj&simid=608048738689056119&FORM=IRPRST&ck=BE914763C801FB79B49D8C8CB2B2EF20&selectedIndex=3&itb=0)
 
 ## Strumenti Utilizzati e Reti Neurali
 
