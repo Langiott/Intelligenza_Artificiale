@@ -23,7 +23,7 @@ Il notebook riguarda la **classificazione di immagini di cani e gatti** utilizza
 
 I metodi di valutazione includono **Accuracy & Precision**, che misurano la percentuale di immagini classificate correttamente, e la **Loss Function**, che monitora l'errore durante l'addestramento. Il risultato ottenuto è il seguente:
 
-![FIG.2: 156.jpg](link-a-immagine)
+![FIG.1: cat.jpg](/Immagini)
 
 ---
 
@@ -67,7 +67,7 @@ Anche se l'oggetto non viene riconosciuto correttamente come frantoio, la rete c
 
 ### OBJ_PEAPLE_SEGNET
 
-![FIG.2: 156.jpg](link-a-immagine)
+![FIG.2: 156.jpg](/Immaginj)
 
 - **SegNet**: Modello di rete utilizzato per l'addestramento e la classificazione delle immagini.
 - **COCODatasetPearson**: Dataset utilizzato per addestrare il modello SegNet, costituito principalmente da immagini di persone.
@@ -92,4 +92,43 @@ La predizione risulta di alta qualità, anche se mancano alcuni accorgimenti:
 - Nessun **Cross-validation** dei dati di input
 
 Ad esempio, l'immagine `155.jpg` viene classificata correttamente come **thatch (paglia)** con una percentuale del 97.39%. Non tutte le predizioni sono accurate, ma la rete è comunque in grado di identificare correttamente il tipo di oggetto, come nel caso dell'immagine `194.jpg`, che viene classificata come **drum (bidone)** con una percentuale del 65.42%. La rete offre buone prestazioni.
+![FIG.3: 155.jpg](/Immaginj)
+![FIG.4: 194.jpg](/Immaginj)
+
+Il codice nel file **OPEAN_AI_DALL_E_3.ipynb** utilizza librerie per interagire con modelli di intelligenza artificiale generativa, in particolare con quelli offerti da **OpenAI**. Questi modelli AI sono noti per essere in grado di generare contenuti, come testo o immagini, a partire da input testuali o visivi.
+
+### Cos'è l'Intelligenza Artificiale Generativa?
+
+L'intelligenza artificiale generativa è una sottocategoria dell'IA che si concentra sulla creazione di nuovi contenuti. Può essere applicata in vari contesti, tra cui:
+
+- **Testo generativo**: Modelli di linguaggio come **GPT-4** generano frasi, documenti o risposte a domande sulla base di input forniti dall'utente.
+- **Immagini generative**: Modelli come **DALL-E** creano immagini originali a partire da descrizioni testuali.
+- **Musica o suoni generativi**: Esistono modelli capaci di generare tracce audio.
+- **Video generativi**: Anche se ancora in evoluzione, ci sono reti neurali che possono generare brevi video.
+
+### Modelli Utilizzati nel Codice
+
+Dal codice presente nel notebook, possiamo ipotizzare l'uso dei seguenti modelli:
+
+1. **DALL-E**: Questo è un modello generativo sviluppato da OpenAI che crea immagini a partire da descrizioni testuali. Probabilmente, lo script nel notebook interagisce con le API di OpenAI per inviare prompt testuali e ricevere immagini generate come output.
+
+2. **GPT**: Anche se il notebook installa la libreria OpenAI, potrebbe essere utilizzato per integrare modelli di linguaggio come GPT (ad esempio, GPT-3 o GPT-4). Questi modelli sono utilizzati per generare testo, rispondere a domande, o supportare processi creativi come la scrittura di articoli o storie.
+
+3. **API di OpenAI**: Il codice utilizza la libreria **OpenAI**, che permette di interfacciarsi facilmente con i vari modelli offerti dall'azienda tramite richieste API. Questo significa che lo script probabilmente include funzioni per inviare prompt a modelli di generazione di immagini o testo e ricevere i risultati.
+
+### Dettagli di Funzionamento del Codice
+
+Lo script si occupa probabilmente di:
+
+- **Installazione delle dipendenze**: Come visto, installa la libreria OpenAI per interagire con i modelli.
+- **Integrazione con le API**: Lo script potrebbe contenere funzioni che inviano una descrizione testuale all'API di DALL-E per ottenere immagini generate.
+- **Gestione delle risposte**: Dopo l'invio di un prompt, lo script riceve una risposta, che può essere una stringa di testo o un'immagine generata, e la mostra all'utente o la salva in un file.
+
+### Caratteristiche delle IA Generative Utilizzate:
+
+- **DALL-E**: Questo modello utilizza reti neurali convoluzionali per interpretare il linguaggio naturale e trasformarlo in immagini dettagliate. È in grado di comprendere concetti complessi e di combinare elementi diversi in un'unica immagine coerente.
+  
+- **GPT (Generative Pretrained Transformer)**: Un modello di linguaggio molto potente, basato su un'architettura transformer. Viene utilizzato per generare testo in maniera fluida e contestualizzata, grazie al suo addestramento su una vasta quantità di dati testuali.
+
+In sintesi, il notebook **OPEAN_AI_DALL_E_3.ipynb** sembra sfruttare i potenti strumenti di intelligenza artificiale generativa, come DALL-E, per creare contenuti visivi a partire da input testuali, utilizzando le API di OpenAI. Questo tipo di applicazione è particolarmente utile in campi creativi, artistici o di automazione del design.
 
