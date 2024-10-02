@@ -1,5 +1,6 @@
 # Intelligenza_Artificiale
 Corso universitario 
+
 ![FIG.0: IA.jpg](/IMMAGINI/IA.png)
 
 ## Strumenti Utilizzati e Reti Neurali
@@ -93,7 +94,9 @@ La predizione risulta di alta qualità, anche se mancano alcuni accorgimenti:
 - Nessun **Cross-validation** dei dati di input
 
 Ad esempio, l'immagine `155.jpg` viene classificata correttamente come **thatch (paglia)** con una percentuale del 97.39%. Non tutte le predizioni sono accurate, ma la rete è comunque in grado di identificare correttamente il tipo di oggetto, come nel caso dell'immagine `194.jpg`, che viene classificata come **drum (bidone)** con una percentuale del 65.42%. La rete offre buone prestazioni.
+
 ![FIG.3: 155.jpg](/IMMAGINI/155.png)
+
 ![FIG.4: 194.jpg](/IMMAGINI/194.png)
 
 Il codice nel file **OPEAN_AI_DALL_E_3.ipynb** utilizza librerie per interagire con modelli di intelligenza artificiale generativa, in particolare con quelli offerti da **OpenAI**. Questi modelli AI sono noti per essere in grado di generare contenuti, come testo o immagini, a partire da input testuali o visivi.
