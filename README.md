@@ -1,6 +1,6 @@
 # Intelligenza_Artificiale
 Corso universitario 
-![FIG.0: IA.jpg](/IMMAGINI/0)
+![FIG.0: IA.jpg](/IMMAGINI/IA)
 
 ## Strumenti Utilizzati e Reti Neurali
 
